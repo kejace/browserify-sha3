@@ -4,7 +4,7 @@
   "description": "node-sha3 compatability for browserify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "sha3": "^1.1.0",
     "tape": "^4.0.1"
+  },
+  "dependencies": {
+    "js-sha3": "^0.3.1"
   }
 }
